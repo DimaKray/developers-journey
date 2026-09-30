@@ -24,7 +24,7 @@ export const profile = {
       title: 'The Developer’s Journey',
       desc: 'Інтерактивне скролітелінг-портфоліо у вигляді веб-коміксу з GSAP, Lenis та процедурним звуком на Web Audio API.',
       tech: ['React', 'TypeScript', 'GSAP', 'Lenis', 'Web Audio'],
-      github: 'https://github.com/DimaKray/developers-journey',
+      github: 'https://github.com/DimaKray/developers-journey.git',
       icon: '⚔️',
     },
     {
@@ -32,8 +32,7 @@ export const profile = {
       title: 'EduJournal',
       desc: 'Електронний журнал успішності для школи (дипломний проєкт): ролі адміністратора, вчителя, учня та батьків з розмежуванням доступу, журнал-матриця оцінок, розклад, домашні завдання та аналітика на графіках.',
       tech: ['React', 'Vite', 'React Router', 'Recharts', 'Node.js', 'Express', 'PostgreSQL', 'JWT'],
-      link: 'https://example.com/edujournal',
-      github: 'https://github.com/DimaKray/edujournal',
+      github: 'https://github.com/DimaKray/school--system.git',
       icon: '📓',
     },
     {

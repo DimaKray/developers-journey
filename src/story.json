@@ -1,691 +1,691 @@
 {
- "pages": [
-  {
-   "id": "hello",
-   "cols": "1.6fr 1fr",
-   "rows": "0.38fr 1.12fr",
-   "d": "'t b' 'a b'",
-   "scroll": 380,
-   "panels": [
-    {
-     "a": "t",
-     "tone": "orange",
-     "at": 0,
-     "items": [
-      {
-       "k": "title",
-       "n": "1",
-       "t": "Привіт, світе"
-      }
-     ]
-    },
-    {
-     "a": "a",
-     "bg": "bg-desk.webp",
-     "f": [
-      60,
-      50
-     ],
-     "z": [
-      1.05,
-      1
-     ],
-     "at": 0.08,
-     "items": [
-      {
-       "k": "actor",
-       "s": "hero-idle.webp",
-       "alt": "Розробник із ноутбуком",
-       "x": 22,
-       "b": 0,
-       "h": 88,
-       "from": {
-        "xPercent": -40,
-        "opacity": 0
-       },
-       "to": {
-        "xPercent": 0,
-        "opacity": 1
-       },
-       "at": 0.15,
-       "d": 0.25
-      },
-      {
-       "k": "type",
-       "l": [
-        "> hello_world.py",
-        "print(\"Привіт, світе!\")"
-       ],
-       "x": 48,
-       "y": 8,
-       "w": 48,
-       "at": 0.35,
-       "d": 0.2,
-       "tone": "green"
-      }
-     ]
-    },
-    {
-     "a": "b",
-     "bg": "bg-desk.webp",
-     "f": [
-      65,
-      45
-     ],
-     "z": [
-      2,
-      2.3
-     ],
-     "at": 0.55,
-     "items": [
-      {
-       "k": "box",
-       "t": "Запрацювало. Диво якесь.",
-       "x": 10,
-       "y": 70,
-       "w": 80,
-       "at": 0.7
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "error",
-   "cols": "1fr 1.6fr",
-   "rows": "0.38fr 1.12fr",
-   "d": "'t a' 'b a'",
-   "scroll": 380,
-   "panels": [
-    {
-     "a": "t",
-     "tone": "orange",
-     "at": 0,
-     "items": [
-      {
-       "k": "title",
-       "n": "2",
-       "t": "Перша помилка компіляції"
-      }
-     ]
-    },
-    {
-     "a": "b",
-     "bg": "bg-desk.webp",
-     "f": [
-      65,
-      45
-     ],
-     "z": [
-      2,
-      2.3
-     ],
-     "tint": "red",
-     "at": 0.08,
-     "items": [
-      {
-       "k": "type",
-       "l": [
-        "error TS2339:",
-        "undefined is not",
-        "a function"
-       ],
-       "x": 8,
-       "y": 14,
-       "w": 84,
-       "at": 0.15,
-       "d": 0.2,
-       "tone": "red"
-      }
-     ],
-     "fx": "glitch"
-    },
-    {
-     "a": "a",
-     "bg": "bg-pit.webp",
-     "f": [
-      50,
-      50
-     ],
-     "z": [
-      1.1,
-      1
-     ],
-     "jag": true,
-     "sh": 0.85,
-     "at": 0.25,
-     "items": [
-      {
-       "k": "box",
-       "t": "А потім земля зникла.",
-       "x": 10,
-       "y": 12,
-       "w": 44,
-       "at": 0.28
-      },
-      {
-       "k": "actor",
-       "s": "hero-fall.webp",
-       "alt": "Розробник падає в яму",
-       "x": 50,
-       "b": 18,
-       "h": 62,
-       "from": {
-        "yPercent": -120,
-        "rotate": -25,
-        "opacity": 0
-       },
-       "to": {
-        "yPercent": 0,
-        "rotate": 6,
-        "opacity": 1
-       },
-       "at": 0.35,
-       "d": 0.28
-      },
-      {
-       "k": "sfx",
-       "t": "ТРЕСЬ!",
-       "x": 72,
-       "y": 26,
-       "c": "#e8503a",
-       "r": -8,
-       "at": 0.65
-      }
-     ],
-     "fx": "dust"
-    }
-   ]
-  },
-  {
-   "id": "light",
-   "cols": "1fr 1fr 1fr",
-   "rows": "0.85fr 1.15fr",
-   "d": "'t a a' 'b c c'",
-   "scroll": 420,
-   "panels": [
-    {
-     "a": "t",
-     "tone": "orange",
-     "at": 0,
-     "items": [
-      {
-       "k": "title",
-       "n": "3",
-       "t": "Stack Overflow"
-      }
-     ]
-    },
-    {
-     "a": "a",
-     "bg": "bg-light.webp",
-     "f": [
-      50,
-      20
-     ],
-     "z": [
-      1.3,
-      1.1
-     ],
-     "at": 0.08,
-     "items": [
-      {
-       "k": "box",
-       "t": "Хтось уже питав про це.",
-       "x": 8,
-       "y": 16,
-       "w": 48,
-       "at": 0.15
-      }
-     ],
-     "fx": "dust"
-    },
-    {
-     "a": "b",
-     "bg": "bg-light.webp",
-     "f": [
-      50,
-      58
-     ],
-     "z": [
-      1.2,
-      1.4
-     ],
-     "at": 0.3,
-     "items": [
-      {
-       "k": "actor",
-       "s": "sword.webp",
-       "alt": "Меч, що світиться",
-       "x": 52,
-       "b": 10,
-       "h": 74,
-       "from": {
-        "yPercent": -130,
-        "rotate": -45,
-        "scale": 0.5,
-        "opacity": 0
-       },
-       "to": {
-        "yPercent": 0,
-        "rotate": -14,
-        "scale": 1,
-        "opacity": 1
-       },
-       "at": 0.35,
-       "d": 0.22
-      },
-      {
-       "k": "sfx",
-       "t": "ЕВРИКА!",
-       "x": 48,
-       "y": 12,
-       "c": "#4aa3e8",
-       "r": -5,
-       "at": 0.55
-      }
-     ],
-     "fx": "dust"
-    },
-    {
-     "a": "c",
-     "bg": "bg-light.webp",
-     "f": [
-      50,
-      60
-     ],
-     "z": [
-      1,
-      1.1
-     ],
-     "at": 0.6,
-     "items": [
-      {
-       "k": "actor",
-       "s": "hero-shield.webp",
-       "alt": "Розробник із мечем і щитом",
-       "x": 55,
-       "b": 0,
-       "h": 90,
-       "from": {
-        "xPercent": 30,
-        "opacity": 0
-       },
-       "to": {
-        "xPercent": 0,
-        "opacity": 1
-       },
-       "at": 0.65,
-       "d": 0.2
-      },
-      {
-       "k": "box",
-       "t": "Тепер із мечем.",
-       "x": 8,
-       "y": 16,
-       "w": 36,
-       "at": 0.85
-      }
-     ],
-     "fx": "dust"
-    }
-   ]
-  },
-  {
-   "id": "climb",
-   "cols": "1fr 1.1fr 1fr",
-   "rows": "0.42fr 1.58fr",
-   "d": "'t s k' 'c s k'",
-   "scroll": 480,
-   "marks": [
-    {
-     "i": "terminal",
-     "l": "Термінал",
-     "f": 0.06
-    },
-    {
-     "i": "git",
-     "l": "Git",
-     "f": 0.24
-    },
-    {
-     "i": "react",
-     "l": "React",
-     "f": 0.42
-    },
-    {
-     "i": "ts",
-     "l": "TypeScript",
-     "f": 0.58
-    },
-    {
-     "i": "node",
-     "l": "Node.js",
-     "f": 0.74
-    },
-    {
-     "i": "mongo",
-     "l": "MongoDB",
-     "f": 0.9
-    }
-   ],
-   "panels": [
-    {
-     "a": "t",
-     "tone": "orange",
-     "at": 0,
-     "items": [
-      {
-       "k": "title",
-       "n": "4",
-       "t": "Підйом"
-      }
-     ]
-    },
-    {
-     "a": "c",
-     "tone": "cream",
-     "at": 0.08,
-     "items": [
-      {
-       "k": "actor",
-       "s": "hero-climb.webp",
-       "alt": "Розробник піднімається сходами",
-       "x": 50,
-       "b": 6,
-       "h": 72,
-       "from": {
-        "yPercent": 25,
-        "opacity": 0
-       },
-       "to": {
-        "yPercent": 0,
-        "opacity": 1
-       },
-       "at": 0.1,
-       "d": 0.15
-      },
-      {
-       "k": "box",
-       "t": "Крок за кроком.",
-       "x": 10,
-       "y": 10,
-       "w": 80,
-       "at": 0.18
-      }
-     ]
-    },
-    {
-     "a": "s",
-     "bg": "bg-stairs.webp",
-     "f": [
-      50,
-      50
-     ],
-     "z": [
-      1,
-      1
-     ],
-     "at": 0.2,
-     "items": [
-      {
-       "k": "climb",
-       "s": "hero-climb.webp",
-       "at": 0.25,
-       "d": 0.65
-      }
-     ]
-    },
-    {
-     "a": "k",
-     "tone": "navy",
-     "at": 0.25,
-     "items": [
-      {
-       "k": "legend"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "boss",
-   "cols": "1fr 1fr 1fr",
-   "rows": "0.85fr 1.15fr",
-   "d": "'t a a' 'h x x'",
-   "scroll": 460,
-   "panels": [
-    {
-     "a": "t",
-     "tone": "orange",
-     "at": 0,
-     "items": [
-      {
-       "k": "title",
-       "n": "5",
-       "t": "Монстр легасі-коду"
-      }
-     ]
-    },
-    {
-     "a": "a",
-     "bg": "bg-storm.webp",
-     "f": [
-      50,
-      50
-     ],
-     "z": [
-      1.1,
-      1
-     ],
-     "at": 0.08,
-     "items": [
-      {
-       "k": "actor",
-       "s": "monster.webp",
-       "alt": "Монстр зі сплутаних кабелів",
-       "x": 58,
-       "b": 0,
-       "h": 90,
-       "from": {
-        "scale": 0.5,
-        "xPercent": 30,
-        "opacity": 0
-       },
-       "to": {
-        "scale": 1,
-        "xPercent": 0,
-        "opacity": 1
-       },
-       "at": 0.15,
-       "d": 0.25
-      },
-      {
-       "k": "box",
-       "t": "Десять років сплутаних дротів. Жодного тесту.",
-       "x": 6,
-       "y": 14,
-       "w": 44,
-       "at": 0.28
-      }
-     ],
-     "fx": "lightning"
-    },
-    {
-     "a": "h",
-     "bg": "bg-storm.webp",
-     "f": [
-      25,
-      55
-     ],
-     "z": [
-      1.3,
-      1.1
-     ],
-     "at": 0.4,
-     "items": [
-      {
-       "k": "actor",
-       "s": "hero-shield.webp",
-       "alt": "Розробник кидається вперед",
-       "x": 50,
-       "b": 2,
-       "h": 88,
-       "from": {
-        "yPercent": 40,
-        "scale": 0.6,
-        "opacity": 0
-       },
-       "to": {
-        "yPercent": 0,
-        "scale": 1,
-        "opacity": 1
-       },
-       "at": 0.45,
-       "d": 0.2
-      }
-     ]
-    },
-    {
-     "a": "x",
-     "bg": "bg-storm.webp",
-     "f": [
-      70,
-      55
-     ],
-     "z": [
-      1.2,
-      1
-     ],
-     "jag": true,
-     "sh": 0.88,
-     "at": 0.65,
-     "items": [
-      {
-       "k": "actor",
-       "s": "monster.webp",
-       "alt": "Монстр відсахнувся",
-       "x": 68,
-       "b": 0,
-       "h": 84,
-       "from": {
-        "xPercent": 0,
-        "rotate": 0,
-        "opacity": 1
-       },
-       "to": {
-        "xPercent": 6,
-        "rotate": 6,
-        "opacity": 0.4
-       },
-       "at": 0.82,
-       "d": 0.1
-      },
-      {
-       "k": "actor",
-       "s": "hero-slash.webp",
-       "alt": "Розробник б'є мечем",
-       "x": 26,
-       "b": 2,
-       "h": 86,
-       "from": {
-        "xPercent": -50,
-        "opacity": 0
-       },
-       "to": {
-        "xPercent": 0,
-        "opacity": 1
-       },
-       "at": 0.7,
-       "d": 0.15
-      },
-      {
-       "k": "sfx",
-       "t": "БУМ!",
-       "x": 48,
-       "y": 18,
-       "c": "#f2b84b",
-       "r": 4,
-       "at": 0.82
-      }
-     ],
-     "fx": "lightning"
-    }
-   ]
-  },
-  {
-   "id": "summit",
-   "cols": "0.85fr 1fr 1fr",
-   "rows": "0.45fr 1.55fr",
-   "d": "'t a a' 'c a a'",
-   "scroll": 360,
-   "panels": [
-    {
-     "a": "t",
-     "tone": "orange",
-     "at": 0,
-     "items": [
-      {
-       "k": "title",
-       "n": "6",
-       "t": "Вершина"
-      }
-     ]
-    },
-    {
-     "a": "a",
-     "bg": "bg-summit.webp",
-     "f": [
-      66,
-      50
-     ],
-     "z": [
-      1.1,
-      1
-     ],
-     "at": 0.08,
-     "items": [
-      {
-       "k": "actor",
-       "s": "hero-summit.webp",
-       "alt": "Розробник на вершині з ноутбуком",
-       "x": 62,
-       "b": 0,
-       "h": 90,
-       "from": {
-        "yPercent": 40,
-        "opacity": 0
-       },
-       "to": {
-        "yPercent": 0,
-        "opacity": 1
-       },
-       "at": 0.15,
-       "d": 0.3
-      },
-      {
-       "k": "box",
-       "t": "Той самий ноутбук. Більше шрамів. Кращі тести.",
-       "x": 8,
-       "y": 12,
-       "w": 44,
-       "at": 0.45
-      }
-     ],
-     "fx": "stars"
-    },
-    {
-     "a": "c",
-     "tone": "cream",
-     "at": 0.6,
-     "items": [
-      {
-       "k": "cta",
-       "t": "Хочеш створити щось разом?"
-      }
-     ]
-    }
-   ]
-  }
- ]
+    "pages": [
+        {
+            "id": "hello",
+            "cols": "1.6fr 1fr",
+            "rows": "0.38fr 1.12fr",
+            "d": "'t b' 'a b'",
+            "scroll": 380,
+            "panels": [
+                {
+                    "a": "t",
+                    "tone": "orange",
+                    "at": 0,
+                    "items": [
+                        {
+                            "k": "title",
+                            "n": "1",
+                            "t": "Привіт, світе"
+                        }
+                    ]
+                },
+                {
+                    "a": "a",
+                    "bg": "bg-desk.webp",
+                    "f": [
+                        60,
+                        50
+                    ],
+                    "z": [
+                        1.05,
+                        1
+                    ],
+                    "at": 0.08,
+                    "items": [
+                        {
+                            "k": "actor",
+                            "s": "hero-idle.webp",
+                            "alt": "Розробник із ноутбуком",
+                            "x": 22,
+                            "b": 0,
+                            "h": 88,
+                            "from": {
+                                "xPercent": -40,
+                                "opacity": 0
+                            },
+                            "to": {
+                                "xPercent": 0,
+                                "opacity": 1
+                            },
+                            "at": 0.15,
+                            "d": 0.25
+                        },
+                        {
+                            "k": "type",
+                            "l": [
+                                "> hello_world.py",
+                                "print(\"Привіт, світе!\")"
+                            ],
+                            "x": 48,
+                            "y": 8,
+                            "w": 48,
+                            "at": 0.35,
+                            "d": 0.2,
+                            "tone": "green"
+                        }
+                    ]
+                },
+                {
+                    "a": "b",
+                    "bg": "bg-desk.webp",
+                    "f": [
+                        65,
+                        45
+                    ],
+                    "z": [
+                        2,
+                        2.3
+                    ],
+                    "at": 0.55,
+                    "items": [
+                        {
+                            "k": "box",
+                            "t": "Запрацювало. Диво якесь.",
+                            "x": 10,
+                            "y": 70,
+                            "w": 80,
+                            "at": 0.7
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "error",
+            "cols": "1fr 1.6fr",
+            "rows": "0.38fr 1.12fr",
+            "d": "'t a' 'b a'",
+            "scroll": 380,
+            "panels": [
+                {
+                    "a": "t",
+                    "tone": "orange",
+                    "at": 0,
+                    "items": [
+                        {
+                            "k": "title",
+                            "n": "2",
+                            "t": "Перша помилка компіляції"
+                        }
+                    ]
+                },
+                {
+                    "a": "b",
+                    "bg": "bg-desk.webp",
+                    "f": [
+                        65,
+                        45
+                    ],
+                    "z": [
+                        2,
+                        2.3
+                    ],
+                    "tint": "red",
+                    "at": 0.08,
+                    "items": [
+                        {
+                            "k": "type",
+                            "l": [
+                                "error TS2339:",
+                                "undefined is not",
+                                "a function"
+                            ],
+                            "x": 8,
+                            "y": 14,
+                            "w": 84,
+                            "at": 0.15,
+                            "d": 0.2,
+                            "tone": "red"
+                        }
+                    ],
+                    "fx": "glitch"
+                },
+                {
+                    "a": "a",
+                    "bg": "bg-pit.webp",
+                    "f": [
+                        50,
+                        50
+                    ],
+                    "z": [
+                        1.1,
+                        1
+                    ],
+                    "jag": true,
+                    "sh": 0.85,
+                    "at": 0.25,
+                    "items": [
+                        {
+                            "k": "box",
+                            "t": "А потім земля зникла.",
+                            "x": 10,
+                            "y": 12,
+                            "w": 44,
+                            "at": 0.28
+                        },
+                        {
+                            "k": "actor",
+                            "s": "hero-fall.webp",
+                            "alt": "Розробник падає в яму",
+                            "x": 50,
+                            "b": 18,
+                            "h": 62,
+                            "from": {
+                                "yPercent": -120,
+                                "rotate": -25,
+                                "opacity": 0
+                            },
+                            "to": {
+                                "yPercent": 0,
+                                "rotate": 6,
+                                "opacity": 1
+                            },
+                            "at": 0.35,
+                            "d": 0.28
+                        },
+                        {
+                            "k": "sfx",
+                            "t": "ТРЕСЬ!",
+                            "x": 72,
+                            "y": 26,
+                            "c": "#e8503a",
+                            "r": -8,
+                            "at": 0.65
+                        }
+                    ],
+                    "fx": "dust"
+                }
+            ]
+        },
+        {
+            "id": "light",
+            "cols": "1fr 1fr 1fr",
+            "rows": "0.85fr 1.15fr",
+            "d": "'t a a' 'b c c'",
+            "scroll": 420,
+            "panels": [
+                {
+                    "a": "t",
+                    "tone": "orange",
+                    "at": 0,
+                    "items": [
+                        {
+                            "k": "title",
+                            "n": "3",
+                            "t": "Stack Overflow"
+                        }
+                    ]
+                },
+                {
+                    "a": "a",
+                    "bg": "bg-light.webp",
+                    "f": [
+                        50,
+                        20
+                    ],
+                    "z": [
+                        1.3,
+                        1.1
+                    ],
+                    "at": 0.08,
+                    "items": [
+                        {
+                            "k": "box",
+                            "t": "Хтось уже питав про це.",
+                            "x": 8,
+                            "y": 16,
+                            "w": 48,
+                            "at": 0.15
+                        }
+                    ],
+                    "fx": "dust"
+                },
+                {
+                    "a": "b",
+                    "bg": "bg-light.webp",
+                    "f": [
+                        50,
+                        58
+                    ],
+                    "z": [
+                        1.2,
+                        1.4
+                    ],
+                    "at": 0.3,
+                    "items": [
+                        {
+                            "k": "actor",
+                            "s": "sword.webp",
+                            "alt": "Меч, що світиться",
+                            "x": 52,
+                            "b": 10,
+                            "h": 74,
+                            "from": {
+                                "yPercent": -130,
+                                "rotate": -45,
+                                "scale": 0.5,
+                                "opacity": 0
+                            },
+                            "to": {
+                                "yPercent": 0,
+                                "rotate": -14,
+                                "scale": 1,
+                                "opacity": 1
+                            },
+                            "at": 0.35,
+                            "d": 0.22
+                        },
+                        {
+                            "k": "sfx",
+                            "t": "ЕВРИКА!",
+                            "x": 48,
+                            "y": 12,
+                            "c": "#4aa3e8",
+                            "r": -5,
+                            "at": 0.55
+                        }
+                    ],
+                    "fx": "dust"
+                },
+                {
+                    "a": "c",
+                    "bg": "bg-light.webp",
+                    "f": [
+                        50,
+                        60
+                    ],
+                    "z": [
+                        1,
+                        1.1
+                    ],
+                    "at": 0.6,
+                    "items": [
+                        {
+                            "k": "actor",
+                            "s": "hero-shield.webp",
+                            "alt": "Розробник із мечем і щитом",
+                            "x": 55,
+                            "b": 0,
+                            "h": 90,
+                            "from": {
+                                "xPercent": 30,
+                                "opacity": 0
+                            },
+                            "to": {
+                                "xPercent": 0,
+                                "opacity": 1
+                            },
+                            "at": 0.65,
+                            "d": 0.2
+                        },
+                        {
+                            "k": "box",
+                            "t": "Тепер із мечем.",
+                            "x": 8,
+                            "y": 16,
+                            "w": 36,
+                            "at": 0.85
+                        }
+                    ],
+                    "fx": "dust"
+                }
+            ]
+        },
+        {
+            "id": "climb",
+            "cols": "1fr 1.1fr 1fr",
+            "rows": "0.42fr 1.58fr",
+            "d": "'t s k' 'c s k'",
+            "scroll": 480,
+            "marks": [
+                {
+                    "i": "terminal",
+                    "l": "Термінал",
+                    "f": 0.06
+                },
+                {
+                    "i": "git",
+                    "l": "Git",
+                    "f": 0.24
+                },
+                {
+                    "i": "react",
+                    "l": "React",
+                    "f": 0.42
+                },
+                {
+                    "i": "ts",
+                    "l": "TypeScript",
+                    "f": 0.58
+                },
+                {
+                    "i": "node",
+                    "l": "Node.js",
+                    "f": 0.74
+                },
+                {
+                    "i": "mongo",
+                    "l": "MongoDB",
+                    "f": 0.9
+                }
+            ],
+            "panels": [
+                {
+                    "a": "t",
+                    "tone": "orange",
+                    "at": 0,
+                    "items": [
+                        {
+                            "k": "title",
+                            "n": "4",
+                            "t": "Підйом"
+                        }
+                    ]
+                },
+                {
+                    "a": "c",
+                    "tone": "cream",
+                    "at": 0.08,
+                    "items": [
+                        {
+                            "k": "actor",
+                            "s": "hero-climb.webp",
+                            "alt": "Розробник піднімається сходами",
+                            "x": 50,
+                            "b": 6,
+                            "h": 72,
+                            "from": {
+                                "yPercent": 25,
+                                "opacity": 0
+                            },
+                            "to": {
+                                "yPercent": 0,
+                                "opacity": 1
+                            },
+                            "at": 0.1,
+                            "d": 0.15
+                        },
+                        {
+                            "k": "box",
+                            "t": "Крок за кроком.",
+                            "x": 10,
+                            "y": 10,
+                            "w": 80,
+                            "at": 0.18
+                        }
+                    ]
+                },
+                {
+                    "a": "s",
+                    "bg": "bg-stairs.webp",
+                    "f": [
+                        50,
+                        50
+                    ],
+                    "z": [
+                        1,
+                        1
+                    ],
+                    "at": 0.2,
+                    "items": [
+                        {
+                            "k": "climb",
+                            "s": "hero-climb.webp",
+                            "at": 0.25,
+                            "d": 0.65
+                        }
+                    ]
+                },
+                {
+                    "a": "k",
+                    "tone": "navy",
+                    "at": 0.25,
+                    "items": [
+                        {
+                            "k": "legend"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "boss",
+            "cols": "1fr 1fr 1fr",
+            "rows": "0.85fr 1.15fr",
+            "d": "'t a a' 'h x x'",
+            "scroll": 460,
+            "panels": [
+                {
+                    "a": "t",
+                    "tone": "orange",
+                    "at": 0,
+                    "items": [
+                        {
+                            "k": "title",
+                            "n": "5",
+                            "t": "Монстр легасі-коду"
+                        }
+                    ]
+                },
+                {
+                    "a": "a",
+                    "bg": "bg-storm.webp",
+                    "f": [
+                        50,
+                        50
+                    ],
+                    "z": [
+                        1.1,
+                        1
+                    ],
+                    "at": 0.08,
+                    "items": [
+                        {
+                            "k": "actor",
+                            "s": "monster.webp",
+                            "alt": "Монстр зі сплутаних кабелів",
+                            "x": 58,
+                            "b": 0,
+                            "h": 90,
+                            "from": {
+                                "scale": 0.5,
+                                "xPercent": 30,
+                                "opacity": 0
+                            },
+                            "to": {
+                                "scale": 1,
+                                "xPercent": 0,
+                                "opacity": 1
+                            },
+                            "at": 0.15,
+                            "d": 0.25
+                        },
+                        {
+                            "k": "box",
+                            "t": "Десять років сплутаних дротів. Жодного тесту.",
+                            "x": 6,
+                            "y": 14,
+                            "w": 44,
+                            "at": 0.28
+                        }
+                    ],
+                    "fx": "lightning"
+                },
+                {
+                    "a": "h",
+                    "bg": "bg-storm.webp",
+                    "f": [
+                        25,
+                        55
+                    ],
+                    "z": [
+                        1.3,
+                        1.1
+                    ],
+                    "at": 0.4,
+                    "items": [
+                        {
+                            "k": "actor",
+                            "s": "hero-shield.webp",
+                            "alt": "Розробник кидається вперед",
+                            "x": 50,
+                            "b": 2,
+                            "h": 88,
+                            "from": {
+                                "yPercent": 40,
+                                "scale": 0.6,
+                                "opacity": 0
+                            },
+                            "to": {
+                                "yPercent": 0,
+                                "scale": 1,
+                                "opacity": 1
+                            },
+                            "at": 0.45,
+                            "d": 0.2
+                        }
+                    ]
+                },
+                {
+                    "a": "x",
+                    "bg": "bg-storm.webp",
+                    "f": [
+                        70,
+                        55
+                    ],
+                    "z": [
+                        1.2,
+                        1
+                    ],
+                    "jag": true,
+                    "sh": 0.88,
+                    "at": 0.65,
+                    "items": [
+                        {
+                            "k": "actor",
+                            "s": "monster.webp",
+                            "alt": "Монстр відсахнувся",
+                            "x": 68,
+                            "b": 0,
+                            "h": 84,
+                            "from": {
+                                "xPercent": 0,
+                                "rotate": 0,
+                                "opacity": 1
+                            },
+                            "to": {
+                                "xPercent": 6,
+                                "rotate": 6,
+                                "opacity": 0.4
+                            },
+                            "at": 0.82,
+                            "d": 0.1
+                        },
+                        {
+                            "k": "actor",
+                            "s": "hero-slash.webp",
+                            "alt": "Розробник б'є мечем",
+                            "x": 26,
+                            "b": 2,
+                            "h": 86,
+                            "from": {
+                                "xPercent": -50,
+                                "opacity": 0
+                            },
+                            "to": {
+                                "xPercent": 0,
+                                "opacity": 1
+                            },
+                            "at": 0.7,
+                            "d": 0.15
+                        },
+                        {
+                            "k": "sfx",
+                            "t": "БУМ!",
+                            "x": 48,
+                            "y": 18,
+                            "c": "#f2b84b",
+                            "r": 4,
+                            "at": 0.82
+                        }
+                    ],
+                    "fx": "lightning"
+                }
+            ]
+        },
+        {
+            "id": "summit",
+            "cols": "0.85fr 1fr 1fr",
+            "rows": "0.45fr 1.55fr",
+            "d": "'t a a' 'c a a'",
+            "scroll": 360,
+            "panels": [
+                {
+                    "a": "t",
+                    "tone": "orange",
+                    "at": 0,
+                    "items": [
+                        {
+                            "k": "title",
+                            "n": "6",
+                            "t": "Вершина"
+                        }
+                    ]
+                },
+                {
+                    "a": "a",
+                    "bg": "bg-summit.webp",
+                    "f": [
+                        66,
+                        50
+                    ],
+                    "z": [
+                        1.1,
+                        1
+                    ],
+                    "at": 0.08,
+                    "items": [
+                        {
+                            "k": "actor",
+                            "s": "hero-summit.webp",
+                            "alt": "Розробник на вершині з ноутбуком",
+                            "x": 62,
+                            "b": 0,
+                            "h": 90,
+                            "from": {
+                                "yPercent": 40,
+                                "opacity": 0
+                            },
+                            "to": {
+                                "yPercent": 0,
+                                "opacity": 1
+                            },
+                            "at": 0.15,
+                            "d": 0.3
+                        },
+                        {
+                            "k": "box",
+                            "t": "Баги нікуди не зникли. Я просто навчився їх ловити.",
+                            "x": 8,
+                            "y": 12,
+                            "w": 44,
+                            "at": 0.45
+                        }
+                    ],
+                    "fx": "stars"
+                },
+                {
+                    "a": "c",
+                    "tone": "cream",
+                    "at": 0.6,
+                    "items": [
+                        {
+                            "k": "cta",
+                            "t": "Хочеш створити щось разом?"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
